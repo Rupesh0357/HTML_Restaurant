@@ -20,7 +20,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(bg.jpg);
+    background: url(/images/bg.jpg) 0 0;
     background-size: cover;
 }
 
@@ -170,7 +170,7 @@ section {
 
 .menu 
 {
-    background: url(bg2.jpg);
+    background: url(/images/bg2.jpg) 0 0;
     background-size: cover;
 }
 
@@ -264,7 +264,7 @@ section {
 
 .testimonials 
 {
-    background: url(bg2.jpg);
+    background: url(/images/bg2.jpg) 0 0;
     background-size: cover;
 }
 
@@ -331,7 +331,7 @@ section {
 /* ****************************** Contact section ********************************* */
 
 .contact {
-    background: url(bg3.jpg);
+    background: url(/images/bg3.jpg) 0 0;
     background-size: cover;
 }
 
@@ -432,14 +432,14 @@ section {
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(menu.png);
+        background: url(/images/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
     }
     .menuToggle.active {
-        background: url(close.png);
+        background: url(/images/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
